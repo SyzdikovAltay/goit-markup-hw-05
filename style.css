@@ -584,9 +584,6 @@ footer .webstudiolink{
 
                                 /*Галерея*/
 .gallery-items{
-    position: relative;
-    overflow: hidden;
-    
     width: 370px;
     height: 404px;
     background-color: #fff;
@@ -634,9 +631,11 @@ footer .webstudiolink{
 .li-gallery:not(:nth-child(3n)){
     margin-right: 30px;
 }
-
-.bg-overlay{
-    
+.gallery-items-0{
+    position: relative;
+    overflow: hidden;
+}
+.bg-overlay{  
     position: absolute;
     
     width: 100%;
