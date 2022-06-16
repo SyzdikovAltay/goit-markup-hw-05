@@ -639,8 +639,8 @@ footer .webstudiolink{
     
     position: absolute;
     visibility: hidden;
-    width: 370px;
-    height: 294px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
