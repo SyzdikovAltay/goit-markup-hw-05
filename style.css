@@ -586,7 +586,7 @@ footer .webstudiolink{
 .gallery-items{
     position: relative;
     overflow: hidden;
-    display: block;
+    
     width: 370px;
     height: 404px;
     background-color: #fff;
