@@ -277,8 +277,36 @@ h1{
     margin-bottom: 50px;
 } 
 .ul-section3{
+    
     display:flex;
     flex-wrap: wrap;
+}
+.li-img{
+    position: relative;
+    /* display: flex; */
+}
+.section3-li-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+}
+.section3-li-p{
+    display: flex;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    align-items: center;
 }
 
 .li-img:not(:nth-child(3n)){
