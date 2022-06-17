@@ -569,6 +569,38 @@ footer .webstudiolink{
 .social-footer{
     margin-left: 70px;
 }
+.footer-subscribe{
+    display: flex;
+    align-items:flex-end;
+    color: var(--white-text);
+    margin-left: 93px;
+}
+.footer-email-input{
+    margin-top: 20px;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 16px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    
+}
+.footer-subscribe>.order-btn{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icon-subscribe-send{
+    fill: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+}
                              /*Портфолио*/ 
 
                             /*Фильтр*/
